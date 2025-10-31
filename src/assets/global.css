@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* small responsive tweaks */
+@media (max-width: 700px) {
+  main {
+    padding: 0 14px;
+  }
+}
