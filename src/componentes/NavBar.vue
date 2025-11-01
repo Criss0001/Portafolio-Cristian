@@ -67,7 +67,7 @@ onMounted(() => {
         </li>
       </ul>
     </div>
-      <button class="nav__cta" @click="scrollTo('proyectos')">Ir a proyectos</button>
+    <button class="nav__cta" @click="scrollTo('proyectos')">Ir a proyectos</button>
   </nav>
 </template>
 
@@ -195,6 +195,7 @@ onMounted(() => {
 @media (max-width: 768px) {
   .nav__toggle {
     display: flex;
+    padding: 3px 1px;
   }
 
   .nav__list {
@@ -206,7 +207,7 @@ onMounted(() => {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.35s ease;

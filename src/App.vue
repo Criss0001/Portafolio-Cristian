@@ -66,8 +66,8 @@ function scrollToTop() {
 <style>
 /* Lightweight layout + section spacing */
 :root {
-  --bg: #0f1724;
-  --card: #0b1220;
+  --bg: #172f57;
+  --card: #041a46;
   --accent: #7c3aed;
   --accent-2: #06b6d4;
   --muted: #9aa4b2;
@@ -81,7 +81,7 @@ body {
   margin: 0;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial;
-  background: radial-gradient(1000px 400px at 10% 10%, rgba(124, 58, 237, 0.08), transparent),
+  background: radial-gradient(1000px 400px at 10% 10%, rgba(40, 54, 247, 0.08), transparent),
     var(--bg);
   color: #e6eef6;
 }
@@ -94,7 +94,7 @@ main {
   padding: 48px 0;
 }
 .section--hero {
-  padding-top: 80px;
+  padding-top: 5px;
 }
 .footer {
   text-align: center;

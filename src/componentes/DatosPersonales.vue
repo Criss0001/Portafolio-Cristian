@@ -1,8 +1,8 @@
 <script setup>
-import linkedin from '@/icons/linkedin_icon.svg';
-import instagram from '/src/icons/instagram_icon.svg';
-import github from '/src/icons/github_icon.svg';
-import email from '/src/icons/email_@_icon.svg';
+import linkedin from "@/icons/linkedin_icon.svg";
+import instagram from "/src/icons/instagram_icon.svg";
+import github from "/src/icons/github_icon.svg";
+import email from "/src/icons/email_@_icon.svg";
 </script>
 
 <template>
@@ -17,25 +17,46 @@ import email from '/src/icons/email_@_icon.svg';
       <div class="hero__content">
         <h1 class="hero__title">Cristian Farina</h1>
         <p class="hero__subtitle">
-          Hola, Bienvenido a mi portafolio de proyectos. Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles.
+          Hola, Bienvenido a mi portafolio de proyectos. Soy un desarrollador web con experiencia en
+          el desarrollo de aplicaciones web y móviles.
         </p>
         <p class="hero__desc">
-          Desarrollo interfaces modernas e interactivas con Vue.js. Apasionado por crear experiencias
-          fluidas, optimizadas y con estilos nuevos.
+          Desarrollo interfaces modernas e interactivas con Vue.js. Apasionado por crear
+          experiencias fluidas, optimizadas y con estilos nuevos.
         </p>
 
         <!-- Redes sociales -->
         <div class="hero__socials">
-          <a href="https://www.linkedin.com/in/cristian-farina-069aa017b/" target="_blank" class="social-link linkedin" title="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/cristian-farina-069aa017b/"
+            target="_blank"
+            class="social-link linkedin"
+            title="LinkedIn"
+          >
             <img :src="linkedin" alt="LinkedIn" />
           </a>
-          <a href="https://github.com/Criss0001" target="_blank" class="social-link github" title="GitHub">
+          <a
+            href="https://github.com/Criss0001"
+            target="_blank"
+            class="social-link github"
+            title="GitHub"
+          >
             <img :src="github" alt="GitHub" />
           </a>
-          <a href="https://instagram.com/cris_farina001" target="_blank" class="social-link instagram" title="Instagram">
+          <a
+            href="https://instagram.com/cris_farina001"
+            target="_blank"
+            class="social-link instagram"
+            title="Instagram"
+          >
             <img :src="instagram" alt="Instagram" />
           </a>
-          <a href="cristianjfarina@gmail.com" target="_blank" class="social-link cv" title="Descargar CV">
+          <a
+            href="mailto:cristianjfarina@gmail.com"
+            target="_blank" 
+            class="social-link email" 
+            title="Email"
+          >
             <img :src="email" alt="Email" />
           </a>
         </div>
@@ -43,7 +64,6 @@ import email from '/src/icons/email_@_icon.svg';
     </div>
   </section>
 </template>
-
 
 <style scoped>
 .hero {
@@ -144,7 +164,14 @@ import email from '/src/icons/email_@_icon.svg';
   background: #333;
 }
 .social-link.instagram:hover {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
 }
 .social-link.cv:hover {
   background: #00bcd4;
