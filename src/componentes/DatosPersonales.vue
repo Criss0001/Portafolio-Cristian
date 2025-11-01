@@ -26,26 +26,18 @@ import email from '/src/icons/email_@_icon.svg';
 
         <!-- Redes sociales -->
         <div class="hero__socials">
-          <a href="https://linkedin.com/in/tuusuario" target="_blank" class="social-link linkedin" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/cristian-farina-069aa017b/" target="_blank" class="social-link linkedin" title="LinkedIn">
             <img :src="linkedin" alt="LinkedIn" />
           </a>
-          <a href="https://github.com/tuusuario" target="_blank" class="social-link github" title="GitHub">
+          <a href="https://github.com/Criss0001" target="_blank" class="social-link github" title="GitHub">
             <img :src="github" alt="GitHub" />
           </a>
-          <a href="https://instagram.com/tuusuario" target="_blank" class="social-link instagram" title="Instagram">
+          <a href="https://instagram.com/cris_farina001" target="_blank" class="social-link instagram" title="Instagram">
             <img :src="instagram" alt="Instagram" />
           </a>
-          <a href="/src/assets/CV_CristianFarina.pdf" target="_blank" class="social-link cv" title="Descargar CV">
+          <a href="cristianjfarina@gmail.com" target="_blank" class="social-link cv" title="Descargar CV">
             <img :src="email" alt="Email" />
           </a>
-        </div>
-
-        <!-- Botones -->
-        <div class="hero__links">
-          <a href="#proyectos" @click.prevent="$root.scrollTo && $root.scrollTo('proyectos')">
-            Proyectos
-          </a>
-          <a href="#contact">Contacto</a>
         </div>
       </div>
     </div>
