@@ -31,7 +31,7 @@ const proyectos = ref([
     tools: ["HTML", "CSS", "JavaScript", "API"],
     tipo: "Proyecto",
     img: proyecto3,
-    proyectoLink: "https://proyecto-2-css-scode.netlify.app/",
+    proyectoLink: "",
     githubLink: "https://github.com/Criss0001/Proyecto-2-CSS",
   },
   {
