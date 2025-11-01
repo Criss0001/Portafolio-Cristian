@@ -13,7 +13,7 @@ const links = ref([
   { id: "educacion", label: "Educación" },
   { id: "experiencia", label: "Experiencia" },
   { id: "habilidades", label: "Habilidades" },
-  { id: "intereses", label: "Intereseses" },
+  { id: "intereses", label: "Intereses" },
   { id: "proyectos", label: "Proyectos" },
 ]);
 
